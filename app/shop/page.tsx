@@ -9,24 +9,23 @@ export default function PreviewGrid() {
       id: 1,
       image: "/french-pink-cookie.jpg",
       title: "Chocolate chunk cookie",
-      href: "https://wa.me/0779141801?text=Cookies%20please",
+      href: "https://wa.me/256779141801?text=Cookies%20please",
       category: "UGX 1000"
     },
     {
       id: 2,
       image: "/peach-frizz-2.jpg",
       title: "Oreo crumb Cookie",
-      href: "https://wa.me/0779141801?text=Oreo-Cookies%20please",
+      href: "https://wa.me/256779141801?text=Oreo-Cookies%20please",
       category: "UGX 1000"
     },
     {
       id: 3,
       image: "/maxi-blue-muffin.jpg",
       title: "maxi muffin chocolate intense",
-      href: "https://wa.me/0779141801?text=Muffins%20please",
+      href: "https://wa.me/256779141801?text=Muffins%20please",
       category: "UGX 3000"
     },
-    // ... more items to fill the grid
   ]
 
   return (
@@ -70,7 +69,7 @@ export default function PreviewGrid() {
       <footer className="py-8 mt-8 border-t">
         <nav className="flex justify-center space-x-8 text-sm">
           <Link href="/" className="hover:underline">full site</Link>
-          <Link href="https://wa.me/0779141801?text=Hello%20there" className="hover:underline">contact</Link>
+          <Link href="https://wa.me/256779141801?text=Hello%20there" className="hover:underline">contact</Link>
         </nav>
       </footer>
     </div>
