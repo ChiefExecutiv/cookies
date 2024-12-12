@@ -1,0 +1,48 @@
+.navigationBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.4rem;
+    text-align: center;
+    width: 100%;
+    z-index: 900;
+}
+
+.navLink {
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+@media (max-width: 767px) {
+    .navLink {
+        align-items: center;
+        display: flex;
+    }
+}
+
+.navSpan {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .navSpan {
+        margin-left: 0.8rem;
+        z-index: 1;
+    }
+}
+
+.navTimeDiv {
+    flex: 0 0 100%;
+    margin-top: 1.6rem;
+}
+
+.timeDiv {
+    color: inherit;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 1.3rem;
+    line-height: 108%;
+}
+
