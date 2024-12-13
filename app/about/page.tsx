@@ -44,9 +44,7 @@ export default function AboutPage() {
       {/* Footer Navigation */}
       <footer className="py-8">
         <nav className="flex justify-center space-x-8 text-xs">
-          <Link href="/">Full site</Link>
-          <Link href="/shop" className="hover:underline">shop</Link>
-          
+          <Link href="/">Full site</Link>          
         </nav>
       </footer>
     </div>
